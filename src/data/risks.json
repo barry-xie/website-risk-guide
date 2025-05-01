@@ -1,0 +1,22 @@
+{
+  "Shopping": {
+    "risks": ["Fake checkout forms", "Weak password storage", "Malicious ads"],
+    "tips": ["Use 2FA when possible", "Check for HTTPS", "Avoid saving card info"]
+  },
+  "Social Media": {
+    "risks": ["Phishing DMs", "Oversharing personal info", "Fake friend requests"],
+    "tips": ["Use privacy settings", "Be cautious of unknown links", "Report suspicious users"]
+  },
+  "Banking/Finance": {
+    "risks": ["Credential stuffing", "Fake banking apps", "Insecure connections"],
+    "tips": ["Never click banking links in emails", "Use app-based 2FA", "Monitor accounts"]
+  },
+  "Forums/Community Boards": {
+    "risks": ["Trolls and misinformation", "Unmoderated links", "Data leaks"],
+    "tips": ["Don't share personal info", "Check moderation policies", "Avoid suspicious links"]
+  },
+  "News/Content Blogs": {
+    "risks": ["Clickbait and fake news", "Pop-up malware", "Misleading ads"],
+    "tips": ["Use ad blockers", "Verify sources", "Avoid unknown download prompts"]
+  }
+}
