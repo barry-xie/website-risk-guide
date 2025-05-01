@@ -1,22 +1,132 @@
 {
   "Shopping": {
-    "risks": ["Fake checkout forms", "Weak password storage", "Malicious ads"],
-    "tips": ["Use 2FA when possible", "Check for HTTPS", "Avoid saving card info"]
+    "risks": [
+      {
+        "title": "Forced Continuity",
+        "summary": "Free trials that auto-renew without clear cancellation.",
+        "details": "Many e-commerce sites offer limited-time 'free trials' that begin charging users without clear consent. For example, platforms like Ancestry.com and Chegg have faced criticism for hiding their cancellation options behind layers of settings or requiring desktop access. Brignull (2023) describes this as 'Forced Continuity' \u2014 a tactic that profits from user forgetfulness or confusion."
+      },
+      {
+        "title": "Hidden Costs at Checkout",
+        "summary": "Unexpected fees added at the end of a purchase.",
+        "details": "Websites like Ticketmaster and GoDaddy are known for adding surprise fees at checkout, including handling charges or default add-ons. Mathur et al. (2019) found over 1,000 shopping sites that add fees late in the checkout flow, violating principles of transparent pricing."
+      }
+    ],
+    "tips": [
+      {
+        "title": "Use virtual cards for trials",
+        "summary": "Virtual cards help avoid unwanted subscription charges.",
+        "details": "Services like Capital One Eno and Apple Card let you generate temporary card numbers. These can be canceled after a trial ends, preventing auto-renewals and unauthorized charges."
+      },
+      {
+        "title": "Review full cost before purchase",
+        "summary": "Look out for unexpected line items or auto-applied extras.",
+        "details": "Before confirming payment, check for small print fees, automatic insurance, or bundled subscriptions. Retailers like GoDaddy have been cited for pre-selecting add-ons, increasing the final cost substantially."
+      }
+    ]
   },
   "Social Media": {
-    "risks": ["Phishing DMs", "Oversharing personal info", "Fake friend requests"],
-    "tips": ["Use privacy settings", "Be cautious of unknown links", "Report suspicious users"]
+    "risks": [
+      {
+        "title": "Obstructed Privacy Settings",
+        "summary": "Privacy controls are buried or difficult to navigate.",
+        "details": "Facebook has been known to hide critical privacy toggles under multiple menus, sometimes requiring users to leave the app and visit a website. Gray et al. (2018) describe this as an 'obstruction' tactic \u2014 adding friction to deter users from opting out of data collection."
+      },
+      {
+        "title": "Manipulative Notifications",
+        "summary": "Designed to induce FOMO and pull users back.",
+        "details": "Instagram and TikTok send frequent push notifications even for trivial updates. These alerts are engineered to manipulate attention and drive engagement. Narayanan et al. (2020) link this to behavioral psychology, exploiting dopamine loops."
+      }
+    ],
+    "tips": [
+      {
+        "title": "Audit your notification settings",
+        "summary": "Turn off non-essential alerts to reduce manipulation.",
+        "details": "Limit notifications to security or direct messages. On Android and iOS, you can control app-level alert behavior to reduce distraction."
+      },
+      {
+        "title": "Use privacy tools",
+        "summary": "Third-party tools can help neutralize tracking.",
+        "details": "Browser extensions like uBlock Origin or DuckDuckGo Privacy Essentials can block trackers and prevent profile-based targeting across platforms."
+      }
+    ]
   },
   "Banking/Finance": {
-    "risks": ["Credential stuffing", "Fake banking apps", "Insecure connections"],
-    "tips": ["Never click banking links in emails", "Use app-based 2FA", "Monitor accounts"]
+    "risks": [
+      {
+        "title": "Hidden Paywalls in 'Free' Apps",
+        "summary": "Core features are locked behind surprise subscriptions.",
+        "details": "Apps like Credit Karma or Mint may advertise free tools, but critical features like credit reports or budgeting require subscriptions. BEUC (2022) flagged this as a deceptive practice violating European transparency laws."
+      },
+      {
+        "title": "Dark Defaults for Data Sharing",
+        "summary": "Pre-selected checkboxes share your financial data.",
+        "details": "Some fintech apps default to sharing user data with third parties, including advertisers and 'credit improvement' partners. These settings are often enabled by default and hard to disable."
+      }
+    ],
+    "tips": [
+      {
+        "title": "Read app store reviews",
+        "summary": "User reviews often reveal hidden costs or shady practices.",
+        "details": "Before downloading a financial app, check for patterns of complaints around billing, trials, or data misuse."
+      },
+      {
+        "title": "Use desktop settings for full access",
+        "summary": "Some cancellation or privacy options are only on web.",
+        "details": "Apps like Experian and Rocket Money restrict certain controls to their desktop sites, making it harder to cancel or change subscriptions via mobile."
+      }
+    ]
   },
   "Forums/Community Boards": {
-    "risks": ["Trolls and misinformation", "Unmoderated links", "Data leaks"],
-    "tips": ["Don't share personal info", "Check moderation policies", "Avoid suspicious links"]
+    "risks": [
+      {
+        "title": "Manipulated Voting Systems",
+        "summary": "Upvotes and likes can be gamed or botted.",
+        "details": "On Reddit and 4chan, manipulation through bots or vote brigading distorts what users see as 'popular'. This can promote misinformation or bury critical responses."
+      },
+      {
+        "title": "Misinformation Framed as Expertise",
+        "summary": "Unverified advice gets mistaken for authority.",
+        "details": "Health, legal, and financial subforums often present anecdotal experiences as expert knowledge. Discourse and StackExchange communities occasionally elevate false claims due to misinterpreted karma or points."
+      }
+    ],
+    "tips": [
+      {
+        "title": "Cross-reference any advice",
+        "summary": "Always verify information from forums.",
+        "details": "Use trusted institutional sources (e.g., CDC, FTC, banks) when reading advice on health or finance. Don't trust high-voted comments blindly."
+      },
+      {
+        "title": "Look for moderation signals",
+        "summary": "Well-moderated forums reduce misinformation.",
+        "details": "Check if posts are labeled by moderators or experts. Look for active moderation teams and transparent rules."
+      }
+    ]
   },
   "News/Content Blogs": {
-    "risks": ["Clickbait and fake news", "Pop-up malware", "Misleading ads"],
-    "tips": ["Use ad blockers", "Verify sources", "Avoid unknown download prompts"]
+    "risks": [
+      {
+        "title": "Clickbait Headlines",
+        "summary": "Sensational headlines to bait clicks.",
+        "details": "News sites like BuzzFeed or viral blogs often exaggerate or mislead with emotionally charged titles. This can distort perception and lead users to biased content. Narayanan et al. (2020) identify this as a key behavioral risk."
+      },
+      {
+        "title": "Malvertising",
+        "summary": "Dangerous ads that install malware or redirect to scams.",
+        "details": "Blogs using low-cost ad networks often serve risky ads, including fake download buttons and phone alerts. Sites like Softonic and some WordPress blogs have been caught distributing adware or PUPs via deceptive banners."
+      }
+    ],
+    "tips": [
+      {
+        "title": "Use an ad blocker",
+        "summary": "Protects against scammy banners and redirects.",
+        "details": "uBlock Origin, Privacy Badger, or Brave Browser can filter harmful content and drastically improve safety."
+      },
+      {
+        "title": "Verify before sharing",
+        "summary": "Check sources before reposting or reacting.",
+        "details": "Use Snopes, Media Bias/Fact Check, or search engines to verify claims before sharing them with others."
+      }
+    ]
   }
 }
