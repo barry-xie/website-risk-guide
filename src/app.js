@@ -3,7 +3,7 @@ const path = require('path');
 const risks = require('./data/risks.json');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3050;
 
 app.use(express.static(path.join(__dirname, '../public')));
 app.use('/scripts', express.static(path.join(__dirname, '../scripts')));
