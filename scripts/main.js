@@ -15,4 +15,6 @@ document.getElementById('risk-form').addEventListener('submit', async function(e
     `<li><strong>${tip.title}</strong><br>${tip.summary}<br><em>${tip.details}</em></li>`
   ).join('') +
   '</ul>';
+
+  resultsDiv.style.display = 'block';
 });
